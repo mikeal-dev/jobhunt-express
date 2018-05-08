@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'BreeSerif-Regular';
+  src: url('../fonts/BreeSerif-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'CreteRound-Regular';
+  src: url('../fonts/CreteRound-Regular.ttf');
+}
+
+
+/*-----------------------Element--------------------*/
+
+
+/****************************************************/
+
+
+/*-----------------------Element--------------------*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'BreeSerif-Regular', sans-serif !important;
+}
+
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+footer {
+  background-color: #0C0C0C;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 20px 0px;
+}
+
+h1, h2, h3, h4, h5, h6, a, li, label {}
+
+footer a {
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 14.5px;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer li {
+  margin: 4px 0px;
+}
+
+footer h4 {
+  color: #008cba;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: wheat;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 0px;
+  background-color: #ebeff0;
+}
+
+textarea {
+  resize: none;
+}
+
+fieldset {
+  margin: 20px;
+}
+
+fieldset:last-child {
+  margin-top: 40px;
+}
+
+ul {
+  float: left;
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+}
+
+cite {
+  font-style: italic;
+  font-size: 14px;
+}
+
+
+button.btn.btn-primary.landing-button:hover {
+  background: #1a7593;
+  border: none;
+}
+
+
+/*-----------------------Classes--------------------*/
+
+
+/*-----------------------Classes--------------------*/
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px;
+}
+
+.form-control, .btn-primary {
+  border-radius: 0px;
+}
+
+.clear-float {
+  clear: both;
+}
+
+.icon-li {
+  float: left;
+  display: inline-block;
+  margin: 0px 0px 10px 5px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.img-logo {
+  padding: 20px;
+  width: 210px;
+  max-width: 250px;
+}
+
+.col-xs-12.col-sm-12.my-application {
+    margin: 10px;
+}
+
+.bold {
+  background-color: #2d3339;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.navbar-brand>img {
+  display: block;
+  max-width: 35%;
+}
+
+
+label, .control-label, .help-block, .checkbox, .radio {
+  font-size: 12px;
+  font-weight: normal;
+  color: #6f828a;
+}
+
+.page-header {
+  background-image: url("../img/man.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #222;
+  margin: 0px;
+  padding: 120px 20px 30px 20px;
+  height: 675px;
+  border-bottom: 1px solid black;
+  margin-top: 0px;
+  /*margin-top: -50px;
+    padding-top: 65px;*/
+}
+
+.navbar-default {
+  padding: 20px;
+  margin: 0px;
+  /*border-bottom: 1px solid rgba(41, 49, 52, 0.40);*/
+  background-color: transparent;
+}
+
+.navbar-inverse {
+  padding: 0px 10px;
+  margin: 0px;
+  background-color: #222323;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  margin-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  background: #222323;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #222323;
+  color: #ffffff;
+}
+
+.navbar-inverse a:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #222222;
+  background-color: transparent;
+}
+
+#text1 {
+    font-size: 70px;
+    font-family: 'BreeSerif-Regular', serif !important;
+}
+
+.search-text {
+    text-align: center;
+    position: relative;
+    color: white;
+    margin: 50px;
+}
+
+.search {
+    margin: 20px;
+}
+
+.modal-header {
+    background: #1A1A1A;
+    color: white;
+}
+
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+#seeker-modal {
+    padding-top: 5px;
+}
+
+.modal-footer {
+    background: #1A1A1A;
+}
+
+.sign-in-p {
+    font-size: 11px;
+    margin-top: 10px;
+    color: red;
+}
+/* find me */
